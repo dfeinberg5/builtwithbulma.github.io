@@ -16,7 +16,7 @@
     "test": "echo 'npm test worked'",
     "start": "node_modules/.bin/http-server . -c-1 -p 4000",
     "build-sass": "node-sass --watch styles.scss styles.min.css",
-    "build": "node_modules/.bin/babel app_es6.js --out-file app.js && node_modules/.bin/node-sass -x styles.scss styles.css && node_modules/.bin/purifycss styles.css index.html app.js --min --out styles.min.css"
+    "build": "node_modules/.bin/babel app_es6.js --out-file app.js && node_modules/.bin/node-sass -x styles.scss styles.css && node_modules/.bin/purifycss styles.css index.html app.js --min --out styles.min.css && rm styles.css"
   },
   "keywords": [
     "Bulma",
