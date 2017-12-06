@@ -10,7 +10,7 @@ Vue.component('bulma-project', {
             </div>
             <div class="card-content">
                 <div class="content has-text-centered">
-                    <h3 class="title is-3">{{title}}</h3>
+                    <h3 class="title is-3" class="cut-text">{{title}}</h3>
                     <a :href="link" target="_blank" class="button is-link">Checkout {{title}}</a>
                 </div>
             </div>
