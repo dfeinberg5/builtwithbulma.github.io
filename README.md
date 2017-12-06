@@ -1,11 +1,16 @@
 # builtwithbulma
 http://builtwithbulma.github.io
 
-A website containing projects built with [Bulma](http://bulma.io)
+![Image of BuiltWithBulma](./assets/Screenshot_of_website.png)
 
-### Wanna add your project?
+A website containing projects built with [Bulma](http://bulma.io), a CSS framework.
 
-Awesome! Just follow these steps below:
+**Goal:** Build a website similar to [http://builtwithbootstrap.com](http://builtwithbootstrap.com) but ad-free and for Bulma instead of Bootstrap. 
+
+**Purpose:** Let there be one place where people can browse projects built with Bulma to see how others have used Bulma and to obtain inspiration for their own projects.
+
+## How do I add my project?
+
 1. Fork the repository
 2. Add your project to index.html by listing it under the rest
 ```html
