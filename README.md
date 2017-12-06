@@ -12,6 +12,8 @@ Awesome! Just follow these steps below:
 <bulma-project 
 title="Title of your project" 
 link="https://www.example.com" 
-picture="https://www.example.com/link-to-picture"></bulma-project>
+picture="https://www.example.com/link-to-picture">
+Short description of your project
+</bulma-project>
 ```
 3. Make a pull request
