@@ -12,7 +12,7 @@ Vue.component('bulma-project', {
                 <div class="content has-text-centered">
                     <h3 class="title is-3" class="cut-text">{{title}}</h3>
                     <p class="cut-text"><slot></slot></p>
-                    <a :href="link" target="_blank" class="button is-link is-medium"> Visit </a>
+                    <a :href="link" target="_blank" class="visit-btn button is-link is-medium"> Visit </a>
                 </div>
             </div>
         </div>

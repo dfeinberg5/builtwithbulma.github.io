@@ -3,6 +3,10 @@
 // customize variables and stuff here
 @import "node_modules/bulma/bulma";
 
+body{
+    background-color: $dark;
+}
+
 .cover{
     object-fit: cover;
 }
@@ -13,6 +17,6 @@
     white-space: nowrap; 
 }
 
-body{
-    background-color: $dark;
+.visit-btn{
+    width: 100%;
 }
