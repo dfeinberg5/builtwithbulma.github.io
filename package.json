@@ -1,0 +1,28 @@
+{
+  "name": "built_with_bulma",
+  "version": "1.0.0",
+  "description": "Projects built with Bulma (CSS framework from Jeremy Thomas)",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "bulma": "^0.6.1",
+    "http-server": "^0.10.0",
+    "node-sass": "^4.7.2",
+    "purify-css": "^1.2.5"
+  },
+  "scripts": {
+    "test": "echo 'npm test worked'",
+    "start": "node_modules/.bin/http-server . -c-1 -p 4000",
+    "build-sass": "node-sass --watch styles.scss styles.min.css",
+    "build": "node_modules/.bin/babel app_es6.js --out-file app.js && node_modules/.bin/node-sass -x styles.scss styles.css && node_modules/.bin/purifycss styles.css index.html app.js --min --out styles.min.css"
+  },
+  "keywords": [
+    "Bulma",
+    "Projects",
+    "Website"
+  ],
+  "author": "Omkar Konaraddi",
+  "license": "ISC"
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Built with Bulma</title> 
+
+    <!--for scaling across various devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <!-- Set the color for the URL bar on Chrome on Android phones/tablets-->
+    <meta name="theme-color" content="">
+
+    <!--stylesheet-->
+    <link rel="stylesheet" type="text/css" href="styles.min.css">
+
+    <!--Vuejs-->
+    <script src="https://unpkg.com/vue"></script>    
+
+    <!--javascript-->
+    <script async type="text/javascript" src="app.js"></script>
+</head>
+<body>
+    <section class="hero is-link">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title is-spaced">
+                    Projects Built with Bulma
+                </h1>
+                <h2 class="subtitle">
+                    <a class="button is-black is-inverted is-outlined">Submit a Project</a>
+                </h2>
+            </div>
+        </div>
+    </section>
+    <section id="project-grid" class="section">
+        <div class="columns is-desktop is-multiline">
+            
+            <bulma-project title="Buetify" link="https://buefy.github.io/#/" picture="https://github.com/rafaelpimpa/buefy/raw/dev/static/img/buefy-banner.png"></bulma-project>
+            
+            <bulma-project title="Bulmaswatch" link="https://jenil.github.io/bulmaswatch/" picture="https://jenil.github.io/bulmaswatch/assets/preview-3.2.png"></bulma-project>
+
+            <!--Add you project above, just like the others!-->
+        </div>
+    </section>
+</body>
+</html>
