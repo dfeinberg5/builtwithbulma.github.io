@@ -12,13 +12,19 @@ A website containing projects built with [Bulma](http://bulma.io), a CSS framewo
 ## How do I add my project?
 
 1. Fork the repository
-2. Add your project to index.html by listing it under the rest
+
+2. Add your project to `index.html` by listing it under the rest
 ```html
 <bulma-project 
 title="Title of your project" 
 link="https://www.example.com" 
-picture="https://www.example.com/link-to-picture">
+picture="picture_of_project.jpg">
 Short description of your project
 </bulma-project>
 ```
+**Please place an image/screenshot of your project in the `assets/projects/` folder along with the rest.**
+It's highly recommended you compress your image (https://compressor.io/compress).
+
 3. Make a pull request
+
+4. Wait for the pull request to be accepted and then your project will be up!

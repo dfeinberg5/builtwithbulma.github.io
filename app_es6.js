@@ -5,7 +5,7 @@ Vue.component('bulma-project', {
         <div class="card">
             <div class="card-image">
                 <figure class="image is-16by9">
-                    <img :src="picture" alt="Project Image" class="cover">
+                    <img :src="'assets/projects/'+picture" alt="Project Image" class="cover">
                 </figure>
             </div>
             <div class="card-content">
