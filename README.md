@@ -1,7 +1,7 @@
 # builtwithbulma
 http://builtwithbulma.github.io
 
-![Image of BuiltWithBulma](./assets/Screenshot_of_website.png)
+![Image of BuiltWithBulma](./assets/builtwithbulma_screenshot.png)
 
 A website containing projects built with [Bulma](http://bulma.io), a CSS framework.
 
